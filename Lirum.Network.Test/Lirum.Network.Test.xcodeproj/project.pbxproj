@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5D83DEC1C8092E9005276EE /* Lirum.Network.Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lirum.Network.Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D83DEC1C8092E9005276EE /* Netstat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netstat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D83DF01C8092E9005276EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5D83DF21C8092E9005276EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5D83DF31C8092E9005276EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		C5D83DED1C8092E9005276EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5D83DEC1C8092E9005276EE /* Lirum.Network.Test.app */,
+				C5D83DEC1C8092E9005276EE /* Netstat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5D83DEB1C8092E9005276EE /* Lirum.Network.Test */ = {
+		C5D83DEB1C8092E9005276EE /* Netstat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D83E031C8092E9005276EE /* Build configuration list for PBXNativeTarget "Lirum.Network.Test" */;
+			buildConfigurationList = C5D83E031C8092E9005276EE /* Build configuration list for PBXNativeTarget "Netstat" */;
 			buildPhases = (
 				C5D83DE81C8092E9005276EE /* Sources */,
 				C5D83DE91C8092E9005276EE /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = Lirum.Network.Test;
+			name = Netstat;
 			productName = Lirum.Network.Test;
-			productReference = C5D83DEC1C8092E9005276EE /* Lirum.Network.Test.app */;
+			productReference = C5D83DEC1C8092E9005276EE /* Netstat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5D83DEB1C8092E9005276EE /* Lirum.Network.Test */,
+				C5D83DEB1C8092E9005276EE /* Netstat */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D83E031C8092E9005276EE /* Build configuration list for PBXNativeTarget "Lirum.Network.Test" */ = {
+		C5D83E031C8092E9005276EE /* Build configuration list for PBXNativeTarget "Netstat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D83E041C8092E9005276EE /* Debug */,
