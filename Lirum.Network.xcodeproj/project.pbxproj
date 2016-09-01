@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5D83DA41C808E01005276EE /* Lirum_Network.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C5D83DA31C808E01005276EE /* Lirum_Network.h */; };
+		C5D83DA61C808E01005276EE /* Lirum_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D83DA51C808E01005276EE /* Lirum_Network.m */; };
+		C5D83DD51C808ED0005276EE /* DHInet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D83DD21C808ED0005276EE /* DHInet.m */; };
+		C5D83DD61C808ED0005276EE /* DNSQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D83DD41C808ED0005276EE /* DNSQuery.m */; };
+		C5D83DD91C808EDA005276EE /* DeviceIP.c in Sources */ = {isa = PBXBuildFile; fileRef = C5D83DD71C808EDA005276EE /* DeviceIP.c */; };
+		C5D83DDC1C808F20005276EE /* DeviceTransferCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D83DDB1C808F20005276EE /* DeviceTransferCounter.m */; };
+		C5D83DDF1C808F44005276EE /* DataLenghtManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D83DDE1C808F44005276EE /* DataLenghtManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D83E0A1C8092EC005276EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D83E061C8092E9005276EE /* Lirum.Network.Test.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5D83DEC1C8092E9005276EE;
+			remoteInfo = Lirum.Network.Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5D83D9E1C808E01005276EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C5D83DA41C808E01005276EE /* Lirum_Network.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C5D83DA01C808E01005276EE /* libLirum.Network.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLirum.Network.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D83DA31C808E01005276EE /* Lirum_Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lirum_Network.h; sourceTree = "<group>"; };
+		C5D83DA51C808E01005276EE /* Lirum_Network.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lirum_Network.m; sourceTree = "<group>"; };
+		C5D83DAE1C808E70005276EE /* clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clock.h; sourceTree = "<group>"; };
+		C5D83DAF1C808E70005276EE /* ev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ev.h; sourceTree = "<group>"; };
+		C5D83DB01C808E70005276EE /* kern_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kern_types.h; sourceTree = "<group>"; };
+		C5D83DB11C808E70005276EE /* kext_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kext_net.h; sourceTree = "<group>"; };
+		C5D83DB31C808E70005276EE /* bootp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bootp.h; sourceTree = "<group>"; };
+		C5D83DB41C808E70005276EE /* icmp6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icmp6.h; sourceTree = "<group>"; };
+		C5D83DB51C808E70005276EE /* icmp_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icmp_var.h; sourceTree = "<group>"; };
+		C5D83DB61C808E70005276EE /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		C5D83DB71C808E70005276EE /* igmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = igmp.h; sourceTree = "<group>"; };
+		C5D83DB81C808E70005276EE /* igmp_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = igmp_var.h; sourceTree = "<group>"; };
+		C5D83DB91C808E70005276EE /* in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = in.h; sourceTree = "<group>"; };
+		C5D83DBA1C808E70005276EE /* in_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = in_arp.h; sourceTree = "<group>"; };
+		C5D83DBB1C808E70005276EE /* in_pcb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = in_pcb.h; sourceTree = "<group>"; };
+		C5D83DBC1C808E70005276EE /* in_systm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = in_systm.h; sourceTree = "<group>"; };
+		C5D83DBD1C808E70005276EE /* in_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = in_var.h; sourceTree = "<group>"; };
+		C5D83DBE1C808E70005276EE /* ip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip.h; sourceTree = "<group>"; };
+		C5D83DBF1C808E70005276EE /* ip6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip6.h; sourceTree = "<group>"; };
+		C5D83DC01C808E70005276EE /* ip_icmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip_icmp.h; sourceTree = "<group>"; };
+		C5D83DC11C808E70005276EE /* ip_mroute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip_mroute.h; sourceTree = "<group>"; };
+		C5D83DC21C808E70005276EE /* ip_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip_var.h; sourceTree = "<group>"; };
+		C5D83DC31C808E70005276EE /* kpi_ipfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpi_ipfilter.h; sourceTree = "<group>"; };
+		C5D83DC41C808E70005276EE /* tcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp.h; sourceTree = "<group>"; };
+		C5D83DC51C808E70005276EE /* tcp_fsm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp_fsm.h; sourceTree = "<group>"; };
+		C5D83DC61C808E70005276EE /* tcp_seq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp_seq.h; sourceTree = "<group>"; };
+		C5D83DC71C808E70005276EE /* tcp_timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp_timer.h; sourceTree = "<group>"; };
+		C5D83DC81C808E70005276EE /* tcp_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp_var.h; sourceTree = "<group>"; };
+		C5D83DC91C808E70005276EE /* tcpip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcpip.h; sourceTree = "<group>"; };
+		C5D83DCA1C808E70005276EE /* udp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udp.h; sourceTree = "<group>"; };
+		C5D83DCB1C808E70005276EE /* udp_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udp_var.h; sourceTree = "<group>"; };
+		C5D83DCC1C808E70005276EE /* netstat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netstat.h; sourceTree = "<group>"; };
+		C5D83DCD1C808E70005276EE /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		C5D83DCE1C808E70005276EE /* socketvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socketvar.h; sourceTree = "<group>"; };
+		C5D83DCF1C808E70005276EE /* thread_call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_call.h; sourceTree = "<group>"; };
+		C5D83DD01C808EB2005276EE /* privateheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privateheader.h; sourceTree = "<group>"; };
+		C5D83DD11C808ED0005276EE /* DHInet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHInet.h; sourceTree = "<group>"; };
+		C5D83DD21C808ED0005276EE /* DHInet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHInet.m; sourceTree = "<group>"; };
+		C5D83DD31C808ED0005276EE /* DNSQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSQuery.h; sourceTree = "<group>"; };
+		C5D83DD41C808ED0005276EE /* DNSQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSQuery.m; sourceTree = "<group>"; };
+		C5D83DD71C808EDA005276EE /* DeviceIP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DeviceIP.c; sourceTree = "<group>"; };
+		C5D83DD81C808EDA005276EE /* DeviceIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIP.h; sourceTree = "<group>"; };
+		C5D83DDA1C808F20005276EE /* DeviceTransferCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTransferCounter.h; sourceTree = "<group>"; };
+		C5D83DDB1C808F20005276EE /* DeviceTransferCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTransferCounter.m; sourceTree = "<group>"; };
+		C5D83DDD1C808F44005276EE /* DataLenghtManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLenghtManager.h; sourceTree = "<group>"; };
+		C5D83DDE1C808F44005276EE /* DataLenghtManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLenghtManager.m; sourceTree = "<group>"; };
+		C5D83E061C8092E9005276EE /* Lirum.Network.Test.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lirum.Network.Test.xcodeproj; path = Lirum.Network.Test/Lirum.Network.Test.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D83D9D1C808E01005276EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D83D971C808E01005276EE = {
+			isa = PBXGroup;
+			children = (
+				C5D83E061C8092E9005276EE /* Lirum.Network.Test.xcodeproj */,
+				C5D83DDD1C808F44005276EE /* DataLenghtManager.h */,
+				C5D83DDE1C808F44005276EE /* DataLenghtManager.m */,
+				C5D83DDA1C808F20005276EE /* DeviceTransferCounter.h */,
+				C5D83DDB1C808F20005276EE /* DeviceTransferCounter.m */,
+				C5D83DD71C808EDA005276EE /* DeviceIP.c */,
+				C5D83DD81C808EDA005276EE /* DeviceIP.h */,
+				C5D83DD11C808ED0005276EE /* DHInet.h */,
+				C5D83DD21C808ED0005276EE /* DHInet.m */,
+				C5D83DD31C808ED0005276EE /* DNSQuery.h */,
+				C5D83DD41C808ED0005276EE /* DNSQuery.m */,
+				C5D83DD01C808EB2005276EE /* privateheader.h */,
+				C5D83DAD1C808E70005276EE /* kernel includes */,
+				C5D83DA21C808E01005276EE /* Lirum.Network */,
+				C5D83DA11C808E01005276EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D83DA11C808E01005276EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D83DA01C808E01005276EE /* libLirum.Network.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D83DA21C808E01005276EE /* Lirum.Network */ = {
+			isa = PBXGroup;
+			children = (
+				C5D83DA31C808E01005276EE /* Lirum_Network.h */,
+				C5D83DA51C808E01005276EE /* Lirum_Network.m */,
+			);
+			path = Lirum.Network;
+			sourceTree = "<group>";
+		};
+		C5D83DAD1C808E70005276EE /* kernel includes */ = {
+			isa = PBXGroup;
+			children = (
+				C5D83DAE1C808E70005276EE /* clock.h */,
+				C5D83DAF1C808E70005276EE /* ev.h */,
+				C5D83DB01C808E70005276EE /* kern_types.h */,
+				C5D83DB11C808E70005276EE /* kext_net.h */,
+				C5D83DB21C808E70005276EE /* netinet */,
+				C5D83DCC1C808E70005276EE /* netstat.h */,
+				C5D83DCD1C808E70005276EE /* route.h */,
+				C5D83DCE1C808E70005276EE /* socketvar.h */,
+				C5D83DCF1C808E70005276EE /* thread_call.h */,
+			);
+			name = "kernel includes";
+			path = "Lirum.Network/kernel includes";
+			sourceTree = "<group>";
+		};
+		C5D83DB21C808E70005276EE /* netinet */ = {
+			isa = PBXGroup;
+			children = (
+				C5D83DB31C808E70005276EE /* bootp.h */,
+				C5D83DB41C808E70005276EE /* icmp6.h */,
+				C5D83DB51C808E70005276EE /* icmp_var.h */,
+				C5D83DB61C808E70005276EE /* if_ether.h */,
+				C5D83DB71C808E70005276EE /* igmp.h */,
+				C5D83DB81C808E70005276EE /* igmp_var.h */,
+				C5D83DB91C808E70005276EE /* in.h */,
+				C5D83DBA1C808E70005276EE /* in_arp.h */,
+				C5D83DBB1C808E70005276EE /* in_pcb.h */,
+				C5D83DBC1C808E70005276EE /* in_systm.h */,
+				C5D83DBD1C808E70005276EE /* in_var.h */,
+				C5D83DBE1C808E70005276EE /* ip.h */,
+				C5D83DBF1C808E70005276EE /* ip6.h */,
+				C5D83DC01C808E70005276EE /* ip_icmp.h */,
+				C5D83DC11C808E70005276EE /* ip_mroute.h */,
+				C5D83DC21C808E70005276EE /* ip_var.h */,
+				C5D83DC31C808E70005276EE /* kpi_ipfilter.h */,
+				C5D83DC41C808E70005276EE /* tcp.h */,
+				C5D83DC51C808E70005276EE /* tcp_fsm.h */,
+				C5D83DC61C808E70005276EE /* tcp_seq.h */,
+				C5D83DC71C808E70005276EE /* tcp_timer.h */,
+				C5D83DC81C808E70005276EE /* tcp_var.h */,
+				C5D83DC91C808E70005276EE /* tcpip.h */,
+				C5D83DCA1C808E70005276EE /* udp.h */,
+				C5D83DCB1C808E70005276EE /* udp_var.h */,
+			);
+			path = netinet;
+			sourceTree = "<group>";
+		};
+		C5D83E071C8092E9005276EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D83E0B1C8092EC005276EE /* Lirum.Network.Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D83D9F1C808E01005276EE /* Lirum.Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D83DA91C808E01005276EE /* Build configuration list for PBXNativeTarget "Lirum.Network" */;
+			buildPhases = (
+				C5D83D9C1C808E01005276EE /* Sources */,
+				C5D83D9D1C808E01005276EE /* Frameworks */,
+				C5D83D9E1C808E01005276EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lirum.Network;
+			productName = Lirum.Network;
+			productReference = C5D83DA01C808E01005276EE /* libLirum.Network.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D83D981C808E01005276EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lirum;
+				TargetAttributes = {
+					C5D83D9F1C808E01005276EE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C5D83D9B1C808E01005276EE /* Build configuration list for PBXProject "Lirum.Network" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5D83D971C808E01005276EE;
+			productRefGroup = C5D83DA11C808E01005276EE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C5D83E071C8092E9005276EE /* Products */;
+					ProjectRef = C5D83E061C8092E9005276EE /* Lirum.Network.Test.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C5D83D9F1C808E01005276EE /* Lirum.Network */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C5D83E0B1C8092EC005276EE /* Lirum.Network.Test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Lirum.Network.Test.app;
+			remoteRef = C5D83E0A1C8092EC005276EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D83D9C1C808E01005276EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D83DD91C808EDA005276EE /* DeviceIP.c in Sources */,
+				C5D83DA61C808E01005276EE /* Lirum_Network.m in Sources */,
+				C5D83DD51C808ED0005276EE /* DHInet.m in Sources */,
+				C5D83DDF1C808F44005276EE /* DataLenghtManager.m in Sources */,
+				C5D83DD61C808ED0005276EE /* DNSQuery.m in Sources */,
+				C5D83DDC1C808F20005276EE /* DeviceTransferCounter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5D83DA71C808E01005276EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5D83DA81C808E01005276EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D83DAA1C808E01005276EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		C5D83DAB1C808E01005276EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D83D9B1C808E01005276EE /* Build configuration list for PBXProject "Lirum.Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D83DA71C808E01005276EE /* Debug */,
+				C5D83DA81C808E01005276EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D83DA91C808E01005276EE /* Build configuration list for PBXNativeTarget "Lirum.Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D83DAA1C808E01005276EE /* Debug */,
+				C5D83DAB1C808E01005276EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D83D981C808E01005276EE /* Project object */;
+}
