@@ -15,6 +15,8 @@
 
 @implementation ViewController
 
+@synthesize txtOutput;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -24,10 +26,15 @@
     
     [Lirum_Network initializeNetworkElements];
 
-    NSLog(@"Connections: %@", m);
+    //NSLog(@"Connections: %@", m);
     
     NSLog(@"WWAN IP: %@", [Lirum_Network getWWanIP]);
     NSLog(@"Wifi IP: %@", [Lirum_Network getWifiIP]);
+    
+    NSString *wwanIP = [Lirum_Network getWWanIP];
+    NSString *wifiIP = [Lirum_Network getWifiIP];
+    
+    [txtOutput setText: [NSString stringWithFormat:@"WWAN IP: %@\nWifi IP: %@\nConnections:\n%@", wwanIP, wifiIP, m]];
 }
 
 - (void)didReceiveMemoryWarning {
